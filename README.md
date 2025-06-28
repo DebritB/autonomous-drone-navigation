@@ -2,7 +2,14 @@
 
 An intelligent drone navigation system that combines computer vision and machine learning to enable autonomous flight with path following and landing pad detection capabilities.
 
-## 🚁 Features
+![image](https://github.com/user-attachments/assets/faecf573-61a9-4141-bf9e-1469a87c731d)
+
+![image](https://github.com/user-attachments/assets/270c8c8c-f989-483c-8784-2725de81657f)
+
+![image](https://github.com/user-attachments/assets/f6f14706-5783-484a-aa21-bf3e5f2011df)
+
+
+## Features
 
 - **Real-time Path Segmentation**: Uses YOLO models to detect and follow paths in real-time
 - **Landing Pad Detection**: Automatically detects and aligns with landing pads
@@ -11,13 +18,13 @@ An intelligent drone navigation system that combines computer vision and machine
 - **Telemetry Monitoring**: Real-time battery and altitude monitoring
 - **Emergency Controls**: Quick emergency landing with ESC key
 
-## 🛠️ Requirements
+## Requirements
 
 - Python 3.8+
 - DJI Tello Drone
 - Webcam (for testing without drone)
 
-## 📦 Dependencies
+## Dependencies
 
 ```
 PySide6>=6.0.0
@@ -27,7 +34,7 @@ opencv-python>=4.5.0
 numpy>=1.21.0
 ```
 
-## 🚀 Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -43,8 +50,9 @@ pip install -r requirements.txt
 3. Download the required YOLO models:
    - Path segmentation model: `epoch50.pt`
    - Landing pad detection model: `best_pad_new.pt`
+   - Link: https://drive.google.com/drive/folders/1X5bv7n2080T2b7jmrMRxmG0J0X8nmPZk?usp=sharing 
 
-## 🎮 Usage
+## Usage
 
 ### Running the Application
 
@@ -67,7 +75,7 @@ python main_window_final.py
 4. **Alignment**: Aligns with the landing pad using visual feedback
 5. **Landing**: Performs autonomous landing on the detected pad
 
-## 🏗️ Architecture
+## Architecture
 
 ### Core Components
 
@@ -84,7 +92,7 @@ python main_window_final.py
 - **Segmentation Thread**: Path detection processing
 - **Detection Thread**: Landing pad detection processing
 
-## 🔧 Configuration
+## Configuration
 
 ### Model Paths
 
@@ -103,21 +111,21 @@ self.drone.set_speed(10)  # Speed in cm/s
 target_height = 25        # Target height in cm
 ```
 
-## 📊 Performance
+## Performance
 
 - **Frame Rate**: 30 FPS camera feed
 - **Processing**: Real-time YOLO inference
 - **Latency**: <100ms control loop
 - **Accuracy**: Configurable confidence thresholds
 
-## 🛡️ Safety Features
+## Safety Features
 
 - **Emergency Landing**: Immediate landing with ESC key
 - **Battery Monitoring**: Real-time battery level display
 - **Connection Status**: Automatic connection verification
 - **Error Handling**: Graceful error recovery
 
-## 🧪 Testing
+## Testing
 
 ### Without Drone
 
@@ -130,7 +138,7 @@ The system can be tested using a webcam by modifying the camera source in `camer
 3. Run the application
 4. Use Takeoff button to start autonomous mission
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork the repository
 2. Create a feature branch
@@ -138,19 +146,19 @@ The system can be tested using a webcam by modifying the camera source in `camer
 4. Add tests if applicable
 5. Submit a pull request
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - DJI Tello SDK for drone control
 - Ultralytics for YOLO model implementation
 - PySide6 for the modern GUI framework
 
-## 📞 Support
+## Support
 
-For issues and questions, please open an issue on GitHub or contact the development team.
+For issues and questions, please open an issue on GitHub or send an email to debritb@gmail.com.
 
 ---
 
