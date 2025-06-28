@@ -58,10 +58,10 @@ docs = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/autonomous-drone-navigation"
-Documentation = "https://github.com/yourusername/autonomous-drone-navigation/docs"
-Repository = "https://github.com/yourusername/autonomous-drone-navigation"
-"Bug Tracker" = "https://github.com/yourusername/autonomous-drone-navigation/issues"
+Homepage = "https://github.com/DebritB/autonomous-drone-navigation"
+Documentation = "https://github.com/DebritB/autonomous-drone-navigation/docs"
+Repository = "https://github.com/DebritB/autonomous-drone-navigation"
+"Bug Tracker" = "https://github.com/DebritB/autonomous-drone-navigation/issues"
 
 [project.scripts]
 drone-nav = "src.main_window_final:main"
