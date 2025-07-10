@@ -38,7 +38,7 @@ numpy>=1.21.0
 
 1. Clone the repository:
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/DebritB/autonomous-drone-navigation.git
 cd autonomous_drone_navigation
 ```
 
